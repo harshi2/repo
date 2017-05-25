@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+  "title": "Chrome",
+  "description": "ChromeInstaller.exe",
+  "tags": [
+    "Windows",
+    "Chrome",
+    "Google"
+  ],
+  "iconUri": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/Artifacts/windows-chrome/Google_Chrome_icon.png",
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& ./PS.ps1')]"
+  }
+}
+=======
 {
   "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
   "title": "Chrome",
@@ -13,3 +30,4 @@
     "commandToExecute": "[concat('powershell.exe -ExecutionPolicy bypass \"& .PS.ps1')]"
   }
 }
+>>>>>>> 8318d3458b06876bb8787d53578bcdea8c70d346
